@@ -1,0 +1,25 @@
+@import '../../styles/base/colors';
+
+.header {
+  background-color: $periwinkle;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+
+  &__link {
+    color: $white;
+    padding: 20px 0 10px;
+    margin: 0 20px;
+
+    &.active {
+      border-bottom: 2px solid $white;
+    }
+  }
+}

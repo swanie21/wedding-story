@@ -1,6 +1,12 @@
+@import 'base/colors';
+@import 'utils/mixins';
+
 .container {
+  @include header-gradient-animation;
+  animation: animatedGradient 6s ease infinite;
+  background: linear-gradient(-40deg, $violet, $blue, $blue-aqua, $aquamarine);
+  background-size: 200% 200%;
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
