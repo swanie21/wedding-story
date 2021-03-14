@@ -4,7 +4,7 @@ import { Nav } from '../../components/Nav';
 const ThingsToDo: React.FunctionComponent = () => {
   return (
     <>
-      <Meta canonical="things-to-do" />
+      <Meta canonical="/things-to-do" />
       <Nav />
       <main>
         <h1>Things to do</h1>

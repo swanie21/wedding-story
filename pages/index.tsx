@@ -8,10 +8,8 @@ const Home: React.FunctionComponent = () => {
       <Meta canonical="/home" />
       <div className={styles.container}>
         <Nav />
-        <main className={styles.main}>
-          <h1 className={styles.title}>
-            Drew & Kirsten
-          </h1>
+        <main className={styles.home}>
+          <h1 className={styles.title}>Drew & Kirsten</h1>
         </main>
       </div>
     </>

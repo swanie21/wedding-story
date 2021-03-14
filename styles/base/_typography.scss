@@ -1,0 +1,54 @@
+@import '../utils/media-queries';
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+
+  @include respond_to(tablet-and-larger) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+
+  @include respond_to(tablet-and-larger) {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+p, li {
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 15px 0;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 0;
+  text-decoration: none;
+  transition: color .35s linear;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}

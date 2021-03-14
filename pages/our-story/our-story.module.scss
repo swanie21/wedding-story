@@ -1,0 +1,104 @@
+@import '../../styles/base/colors';
+@import '../../styles/utils/media-queries';
+
+.timeline {
+  background-color: $aquamarine;
+  margin-top: 50px;
+  padding: 60px 60px 60px 30px;
+
+  @include respond_to(tablet-and-larger) {
+    padding: 60px;
+  }
+
+  > h1 {
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    margin: 50px auto 0;
+    max-width: 1120px;
+    padding-left: 0;
+    position: relative;
+
+    &::before {
+      background: $title;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      transform: translateX(-50%);
+      width: 2px;
+
+      @include respond_to(tablet-and-larger) {
+        left: 50%;
+      }
+    }
+  }
+
+  &__card {
+    margin: 0 0 30px;
+
+    @include respond_to(tablet-and-larger) {
+      margin: -150px 0 0 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:nth-child(even) .timeline__card--details {
+      @include respond_to(tablet-and-larger) {
+        float: right;
+      }
+    }
+
+    &--details {
+      background-color: $white;
+      border-radius: 10px;
+      margin-left: 30px;
+      padding: 40px;
+      width: 100%;
+
+      @include respond_to(tablet-and-larger) {
+        margin-left: 0;
+        width: 45%;
+      }
+    }
+
+    &--bulletpoint {
+      background: $title;
+      border-radius: 50%;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+      height: 20px;
+      left: 0;
+      margin-left: -11px;
+      position: absolute;
+      width: 20px;
+
+      @include respond_to(tablet-and-larger) {
+        left: 50%;
+      }
+    }
+
+    &--date {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    &--image {
+      max-height: 400px;
+      max-width: 420px;
+      margin: auto;
+      overflow: hidden;
+
+      > img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

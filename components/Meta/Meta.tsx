@@ -28,8 +28,7 @@ export const Meta: React.FunctionComponent<MetaProps> = ({
       <link rel="canonical" href={canonical} />
       <link rel="icon" type="image/png" href="/favicon.ico" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Lato:wght@100&family=Roboto:wght@100;400&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
     </Head>
   );
 };

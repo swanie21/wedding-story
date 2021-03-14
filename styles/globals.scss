@@ -1,0 +1,13 @@
+@import 'base/colors';
+@import 'base/typography';
+@import 'utils/media-queries';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
