@@ -32,7 +32,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="Union Lodge #1 bar seating" src="/union-lodge.jpg" height="359" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>October 15, 2018</p>
-                <p className={styles['timeline__card--description']}>We had our first date at Union Lodge #1, which is like a small speakeasy bar.</p>
+                <p className={styles['timeline__card--description']}>We got together for our first date at a small speakeasy bar called Union Lodge #1 and hit it off immediately. We ended up talking all night long.</p>
               </div>
             </Slide>
           </li>
@@ -44,7 +44,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="snoeshoeing in Marion Gulch near Basalt" src="/snowshoeing.jpg" height="315" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>January 1, 2019</p>
-                <p className={styles['timeline__card--description']}>Our first winter activity was snowshowing at Marion Gulch near Basalt.</p>
+                <p className={styles['timeline__card--description']}>We both love the outdoors and Kirsten took Drew snowshoeing for the first time at Marion Gulch near Basalt.</p>
               </div>
             </Slide>
           </li>
@@ -56,7 +56,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="Phantom of the Opera billboard" src="/broadway-play.jpg" height="560" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>April 26, 2019</p>
-                <p className={styles['timeline__card--description']}>Kirsten and Drew live right across from the Performing Arts Center and they take full advantage of watching all the Broadways and orchestra performances.</p>
+                <p className={styles['timeline__card--description']}>Kirsten and Drew live next to the Performing Arts Center and they take full advantage of watching all the Broadways and orchestra performances.</p>
               </div>
             </Slide>
           </li>
@@ -68,7 +68,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="Horsetooth Reservoir in Fort Collins" src="/fort-collins.jpg" height="315" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>May 26, 2019</p>
-                <p className={styles['timeline__card--description']}>Drew and Kirsten spent a weekend in Fort Collins and he gave her a tour of CSU where he went to college.</p>
+                <p className={styles['timeline__card--description']}>Drew took Kirsten for a weekend trip to Fort Collins and gave her a tour of CSU where he went to undergrad.</p>
               </div>
             </Slide>
           </li>
@@ -80,7 +80,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="winery" src="/france-treehouse.jpg" height="419" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>July 5, 2019</p>
-                <p className={styles['timeline__card--description']}>Our first international trip was to France. We went for Kirsten's friend Sara's wedding.</p>
+                <p className={styles['timeline__card--description']}>We initially connected about our shared passion for travel. Our first international trip together was to France for Sara's wedding, Kirsten's friend from ASU. One of the highlights from the trip was staying in a treehouse in the Burgundy countryside.</p>
               </div>
             </Slide>
           </li>
@@ -92,7 +92,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="tennis tournament in Steamboat Springs" src="/tennis-tournament.jpg" height="315" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>August 3, 2019</p>
-                <p className={styles['timeline__card--description']}>Drew and Kirsten played in their first tennis tournament together in Steamboat Springs. Unfortunately, they lost in the second match to lobbers.</p>
+                <p className={styles['timeline__card--description']}>Drew and Kirsten had a great time playing in their first tennis tournament together in Steamboat Springs.</p>
               </div>
             </Slide>
           </li>
@@ -115,8 +115,8 @@ const OurStory: React.FunctionComponent = () => {
                 <div className={styles['timeline__card--image']}>
                   <Image alt="motorcycle ride to the Rocky Mountain National Park" src="/motorcycle-rides.jpg" height="560" width="420" />
                 </div>
-                <p className={styles['timeline__card--date']}>DATE</p>
-                <p className={styles['timeline__card--description']}>Kirsten was going to sell her motorcycle, but then Drew surprised her with the annoucement that he had enrolled in riding school. Now together they enjoy going on rides!</p>
+                <p className={styles['timeline__card--date']}>April 13, 2019</p>
+                <p className={styles['timeline__card--description']}>Kirsten was going to sell her motorcycle, but Drew surprised her with the annoucement that he had enrolled in riding school. Together they enjoy riding their Kawasakis through Colorado's scenic terrain!</p>
               </div>
             </Slide>
           </li>
@@ -128,7 +128,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="Kirsten's family" src="/meet-the-swansons.jpg" height="380" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>September 20, 2019</p>
-                <p className={styles['timeline__card--description']}>Drew met Kirsten's parents for the first time in Basalt.</p>
+                <p className={styles['timeline__card--description']}>Drew met Kirsten's parents for the first time in Basalt. They went on a fly fishing guided tour with Kirsten's dad and between all of them caught about a dozen brown trout. Fun activities of the weekend also included tennis, pickleball, and board games.</p>
               </div>
             </Slide>
           </li>
@@ -140,7 +140,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="tennis champs on the court" src="/tennis-tournament-winners.jpg" height="430" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>September 28, 2019</p>
-                <p className={styles['timeline__card--description']}>Way may not win playing together, but separately we both won our tennis brackets at Berkely Park tournement.</p>
+                <p className={styles['timeline__card--description']}>Although Kirsten plays tennis at a higher level than Drew, we both entered and won our separate doubles brackets at the Berkely Park Tennis Tournament.</p>
               </div>
             </Slide>
           </li>
@@ -152,7 +152,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="Drew with eye bandage and Kirsten with arm sling" src="/the-crippled-couple.jpg" height="560" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>December 13, 2019</p>
-                <p className={styles['timeline__card--description']}>Drew and Kirsten like to spend so much time together that they even get injured at the same time. But we always have good friends and each other for support.</p>
+                <p className={styles['timeline__card--description']}>Even when Drew and Kirsten get banged up, they always have each other and a wonderful network of friends for support.</p>
               </div>
             </Slide>
           </li>
@@ -164,7 +164,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="Barton family" src="/meet-the-bartons.jpg" height="560" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>December 22, 2019</p>
-                <p className={styles['timeline__card--description']}>Kirsten met Drew's parents who live in Lisbon, Portugal for the first time when they visited Denver.</p>
+                <p className={styles['timeline__card--description']}>Kirsten met Drew's parents for the first time when they visited Denver during Christmas time, from their home in Lisbon, Portugal. They enjoyed gluwein and traditional German food at Denver's ChristKindl Market.</p>
               </div>
             </Slide>
           </li>
