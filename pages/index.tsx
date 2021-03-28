@@ -10,6 +10,8 @@ const Home: React.FunctionComponent = () => {
         <Nav />
         <main className={styles.home}>
           <h1 className={styles.title}>Drew & Kirsten</h1>
+          <h2>Saturday, August 7th 2021</h2>
+          <h2>6 o'clock evening ceremony with reception to follow</h2>
         </main>
       </div>
     </>

@@ -1,0 +1,66 @@
+@import '../../styles/base/colors';
+@import '../../styles/utils/media-queries';
+
+.travel {
+  padding-top: 30px;
+
+  > h1 {
+    text-align: center;
+  }
+
+  &__section {
+    margin: 100px 0;
+  }
+
+  &__details {
+    max-width: 400px;
+
+    &--container {
+      background-color: $white;
+      padding: 30px;
+      border-radius: 6px;
+      position: relative;
+    }
+
+    > ul {
+      padding-left: 20px;
+    }
+
+    &--block {
+      border-radius: 6px;
+      display: block;
+      height: 150px;
+      left: -40px;
+      opacity: 0.5;
+      position: absolute;
+      top: -40px;
+      width: 150px;
+      z-index: -1;
+
+      &-1 {
+        background-color: $turqoise;
+      }
+
+      &-2 {
+        background-color: $seafoam;
+      }
+
+      &-3 {
+        background-color: $blue-sky;
+      }
+    }
+  }
+
+  &__image {
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 550px;
+    position: absolute;
+
+    &-1 {
+      background-size: 42% 48%;
+    }
+  }
+}

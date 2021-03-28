@@ -11,3 +11,26 @@ body {
 * {
   box-sizing: border-box;
 }
+
+main {
+  // Required for IE11 to respect main styles
+  display: block;
+  // Show all page content by accounting for header height
+  margin-top: 90px;
+}
+
+.flex-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex-half {
+    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 350px;
+  width: 50%;
+}
