@@ -9,17 +9,19 @@
   }
 
   &__section {
-    margin: 100px 0;
+    margin: 100px 0 150px;
   }
 
   &__details {
-    max-width: 400px;
+    margin: auto;
+    max-width: 370px;
 
     &--container {
       background-color: $white;
-      padding: 30px;
       border-radius: 6px;
       position: relative;
+      padding: 30px;
+      width: 550px;
     }
 
     > ul {
@@ -53,14 +55,37 @@
 
   &__image {
     background-attachment: fixed;
-    background-position: right;
     background-repeat: no-repeat;
-    height: 100%;
     width: 550px;
-    position: absolute;
 
     &-1 {
+      background-position: right;
       background-size: 42% 48%;
+      height: 374px;
+    }
+
+    &-2 {
+      background-position: bottom left;
+      background-size: 42% 48%;
+      height: 413px;
+    }
+
+    &-3 {
+      background-position: bottom right;
+      background-size: 42% 48%;
+      height: 366px;
+    }
+
+    &-4 {
+      background-position: bottom left;
+      background-size: 42% 48%;
+      height: 328px;
+    }
+
+    &-5 {
+      background-position: bottom right;
+      background-size: 42% 48%;
+      height: 400px;;
     }
   }
 }

@@ -6,9 +6,8 @@
     display: block;
     padding: 24px 20px 20px;
     position: relative;
+    width: 100%;
     z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
 
     @include respond_to(mobile-small-and-larger) {
       padding: 24px 30px 20px;
@@ -134,12 +133,10 @@
 
       li {
         color: $title;
-        // font-family: $medium-font-family;
       }
 
       a {
         color: $title;
-        // font-family: $medium-font-family;
         line-height: 28px;
 
         &:hover {
@@ -151,8 +148,7 @@
         padding-left: 30px;
 
         a {
-          // font-family: $base-font-family;
-          font-size: 14px;
+            font-size: 14px;
         }
       }
     }

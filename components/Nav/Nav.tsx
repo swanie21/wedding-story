@@ -16,6 +16,7 @@ export const Nav: React.FunctionComponent = () => {
           <li className={`${styles['nav__link']} ${router.pathname == '/our-story' && styles['active']}`}><Link href="/our-story" prefetch={false}>Our Story</Link></li>
           <li className={`${styles['nav__link']} ${router.pathname == '/wedding-party' && styles['active']}`}><Link href="/wedding-party" prefetch={false}>Wedding Party</Link></li>
           <li className={`${styles['nav__link']} ${router.pathname == '/things-to-do' && styles['active']}`}><Link href="/things-to-do" prefetch={false}>Things to do</Link></li>
+          <li className={`${styles['nav__link']} ${router.pathname == '/rsvp' && styles['active']}`}><Link href="/rsvp" prefetch={false}>RSVP</Link></li>
           <li className={`${styles['nav__link']} ${router.pathname == '/adventure-fund' && styles['active']}`}><Link href="/adventure-fund" prefetch={false}>Adventure Fund</Link></li>
         </ul>
       </nav>

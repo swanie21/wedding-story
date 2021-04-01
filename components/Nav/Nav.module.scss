@@ -4,7 +4,7 @@
 .header {
   background-color: $periwinkle;
   display: flex;
-  height: 90px;
+  height: 60px;
   justify-content: center;
   position: fixed;
   top: 0;
@@ -16,12 +16,13 @@
   display: flex;
   flex-direction: row;
   list-style: none;
+  margin: 0;
   padding-left: 0;
 
   &__desktop {
     display: none;
 
-    @include respond_to(mobile-large-and-larger) {
+    @include respond_to(tablet-and-larger) {
       display: block;
     }
   }
