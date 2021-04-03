@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { useWindowSize } from 'react-use';
 import Confetti from 'react-confetti';
 import { Meta } from '../components/Meta';
 import { Nav } from '../components/Nav';
 import styles from '../styles/Home.module.scss';
 
 const Home: React.FunctionComponent = () => {
+  const { height, width } = useWindowSize();
+
   return (
     <>
       <Meta canonical="/home" />
@@ -13,6 +16,8 @@ const Home: React.FunctionComponent = () => {
         <main className={styles.home}>
           <Confetti
             colors={['#7400B8','#6930C3','#5E60CE','#5390D9','#4EA8DE','#56CFE1','#64DFDF','#72EFDD','#80FFDB']}
+            height={height}
+            width={width}
           />
           <h1 className={styles.title}>Drew & Kirsten</h1>
           <h2>Saturday, August 7th 2021</h2>

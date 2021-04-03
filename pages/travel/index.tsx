@@ -8,11 +8,33 @@ const Travel: React.FunctionComponent = () => {
       <Meta canonical="/travel" />
       <Nav />
       <main className={styles.travel}>
-        <h1>Accommodations</h1>
+        <h1>Venue</h1>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half">
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-1']}`} />
+              <div className={styles['travel__details']}>
+                <h2>Swanson Residence</h2>
+                <p>Address: <a href="https://g.page/elementbasaltaspen?share" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
+                <p>Ceremony and reception to follow at the same location</p>
+                <p>Parking allowed in the neighborhood</p>
+                <p>Shuttle service from the Element hotel</p>
+                <p>Dress is business casual</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-1']}`} role="img"  style={{ backgroundImage: `url('/wedding-venue.jpg')` }} />
+          </div>
+        </div>
+        <h1>Accommodations</h1>
+        <div className={`flex-wrapper ${styles['travel__section']}`}>
+          <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img"  style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
+          </div>
+          <div className="flex-half">
+            <div className={styles['travel__details--container']}>
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-2']}`} />
               <div className={styles['travel__details']}>
                 <h2>Element Basalt</h2>
                 <p>Address: <a href="https://g.page/elementbasaltaspen?share" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
@@ -23,17 +45,11 @@ const Travel: React.FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-1']}`} role="img"  style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
-          </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img"  style={{ backgroundImage: `url('/basalt-mountain-inn.jpeg')` }} />
-          </div>
-          <div className="flex-half">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-2']}`} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-3']}`} />
               <div className={styles['travel__details']}>
                 <h2>Basalt Mountain Inn</h2>
                 <p>Address: <a href="https://goo.gl/maps/Abo4gPdov4RusnPw8" rel="noreferrer" target="_blank">220 Midland Ave, Basalt, CO 81621</a> (located in downtown Basalt)</p>
@@ -42,11 +58,17 @@ const Travel: React.FunctionComponent = () => {
               </div>
             </div>
           </div>
+          <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-3']}`} role="img"  style={{ backgroundImage: `url('/basalt-mountain-inn.jpeg')` }} />
+          </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-4']}`} role="img"  style={{ backgroundImage: `url('/marble-distillery-inn.jpeg')` }} />
+          </div>
+          <div className="flex-half">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-3']} `} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-4']} `} />
               <div className={styles['travel__details']}>
                 <h2>Carbondale Hotels</h2>
                 <p><a href="https://g.page/MarbleDistilling?share" rel="noreferrer" target="_blank">Marble Distilling Co. & The Distillery In</a></p>
@@ -55,18 +77,12 @@ const Travel: React.FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-3']}`} role="img"  style={{ backgroundImage: `url('/marble-distillery-inn.jpeg')` }} />
-          </div>
         </div>
         <h1>Travel</h1>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-4']}`} role="img"  style={{ backgroundImage: `url('/aspen-pitkin-airport.jpeg')` }} />
-          </div>
-          <div className="flex-half">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-1']}`} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-5']}`} />
               <div className={styles['travel__details']}>
                 <p>Flying into Apen/Pitkin airport (ASE) is the closest option to Basalt (~20 minute drive to Hotel)</p>
                 <ul>
@@ -78,11 +94,17 @@ const Travel: React.FunctionComponent = () => {
               </div>
             </div>
           </div>
+          <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-5']}`} role="img"  style={{ backgroundImage: `url('/aspen-pitkin-airport.jpeg')` }} />
+          </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-6']}`} role="img"  style={{ backgroundImage: `url('/glenwood-canyon.jpeg')` }} />
+          </div>
+          <div className="flex-half">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-1']}`} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-6']}`} />
               <div className={styles['travel__details']}>
                 <p>Flying into Denver airport (DEN) is probably the cheapest option to get to CO. Leaves a beautiful 3.5 - 4 hour drive west on I-70 through the scenic Coloradan Rocky Mountains to get to Basalt</p>
                 <ul>
@@ -92,9 +114,6 @@ const Travel: React.FunctionComponent = () => {
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-5']}`} role="img"  style={{ backgroundImage: `url('/glenwood-canyon.jpeg')` }} />
           </div>
         </div>
       </main>
