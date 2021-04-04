@@ -1,12 +1,19 @@
 @import 'base/colors';
+@import 'utils/media-queries';
 @import 'utils/mixins';
 
 .home {
 
   > h1 {
     color: $white;
-    font-size: 100px;
-    line-height: 110px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    @include respond_to(desktop) {
+      font-size: 100px;
+      line-height: 110px;
+    }
   }
 
   > h2 {

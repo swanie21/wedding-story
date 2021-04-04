@@ -6,7 +6,6 @@
     display: block;
     padding: 24px 20px 20px;
     position: relative;
-    width: 100%;
     z-index: 1;
 
     @include respond_to(mobile-small-and-larger) {
@@ -44,7 +43,7 @@
     }
 
     &--bar {
-      background-color: $title;
+      background-color: $white;
       border-radius: 15px;
       display: block;
       height: 3px;
@@ -107,7 +106,7 @@
       height: 100vh;
       justify-content: space-between;
       list-style-type: none;
-      margin: 0 0 0 70px;
+      margin: 0 0 0 55px;
       padding: 50px 30px;
       overflow-y: auto;
       position: fixed;
@@ -115,11 +114,10 @@
       transform: none;
       transform-origin: 0% 0%;
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-      width: calc(100vw - 30px);
+      width: 100vw;
 
       @include respond_to(mobile-small-and-larger) {
         padding: 50px;
-        width: calc(100vw - 60px);
       }
 
       &-container {

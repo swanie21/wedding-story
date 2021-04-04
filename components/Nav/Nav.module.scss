@@ -3,27 +3,38 @@
 
 .header {
   background-color: $periwinkle;
-  display: flex;
   height: 60px;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
   z-index: 1;
+
+  @include respond_to(tablet-and-larger) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 }
 
 .nav {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
 
   &__desktop {
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
     @include respond_to(tablet-and-larger) {
-      display: block;
+      justify-content: center;
+    }
+
+    &--list {
+      visibility: hidden;
+
+      @include respond_to(tablet-and-larger) {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        visibility: visible;
+      }
     }
   }
 

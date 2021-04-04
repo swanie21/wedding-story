@@ -10,7 +10,7 @@ export const Nav: React.FunctionComponent = () => {
   return (
     <header className={styles.header}>
       <nav className={styles['nav__desktop']}>
-        <ul className={styles.nav}>
+        <ul className={styles['nav__desktop--list']}>
           <li className={`${styles['nav__link']} ${router.pathname == '/' && styles['active']}`}><Link href="/" prefetch={false}>Home</Link></li>
           <li className={`${styles['nav__link']} ${router.pathname == '/travel' && styles['active']}`}><Link href="/travel" prefetch={false}>Travel</Link></li>
           <li className={`${styles['nav__link']} ${router.pathname == '/our-story' && styles['active']}`}><Link href="/our-story" prefetch={false}>Our Story</Link></li>
@@ -19,8 +19,8 @@ export const Nav: React.FunctionComponent = () => {
           <li className={`${styles['nav__link']} ${router.pathname == '/rsvp' && styles['active']}`}><Link href="/rsvp" prefetch={false}>RSVP</Link></li>
           <li className={`${styles['nav__link']} ${router.pathname == '/adventure-fund' && styles['active']}`}><Link href="/adventure-fund" prefetch={false}>Adventure Fund</Link></li>
         </ul>
+        <NavMobile />
       </nav>
-      <NavMobile />
     </header>
   );
 };
