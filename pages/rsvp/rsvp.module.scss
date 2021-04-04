@@ -2,29 +2,41 @@
 @import '../../styles/utils/media-queries';
 
 .rsvp {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  // Full view height less header height
-  height: calc(100vh - 60px);
+
+  @include respond_to(tablet-and-larger) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    // Full view height less header height
+    height: calc(100vh - 60px);
+  }
 
   > h1 {
     text-align: center;
   }
 
   &__description {
-    margin-right: 50px;
-    max-width: 480px;
-    padding: 50px;
+    margin-bottom: 30px;
+
+    @include respond_to(tablet-and-larger) {
+      max-width: 480px;
+      padding: 50px;
+      margin: 0 50px 0 0;
+    }
   }
 
   &__form {
     background-color: $blue-aqua;
     border-radius: 10px;
     padding: 20px;
+    width: 100%;
 
     @include respond_to(mobile-medium-and-larger) {
       padding: 50px;
+    }
+
+    @include respond_to(mobile-large-and-larger) {
+      max-width: 600px;
     }
 
     &--container {

@@ -24,7 +24,7 @@ export const NavMobile: React.FunctionComponent = () => {
         <ul className={styles['nav__hamburger-menu--list-container']}>
           <li className={styles['nav__link']}><Link href="/" prefetch={false}>Home</Link></li>
           <li className={styles['nav__link']}><Link href="/travel" prefetch={false}>Travel</Link></li>
-          <li className={styles['nav__link']}><Link href="/our-story" prefetch={false}>Love Story</Link></li>
+          <li className={styles['nav__link']}><Link href="/our-story" prefetch={false}>Our Story</Link></li>
           <li className={styles['nav__link']}><Link href="/wedding-party" prefetch={false}>Wedding Party</Link></li>
           <li className={styles['nav__link']}><Link href="/things-to-do" prefetch={false}>Things to do</Link></li>
           <li className={styles['nav__link']}><Link href="/rsvp" prefetch={false}>RSVP</Link></li>

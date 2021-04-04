@@ -15,9 +15,12 @@ body {
 main {
   // Required for IE11 to respect main styles
   display: block;
-  // Show all page content by accounting for header height
-  margin-top: 60px;
   padding: 20px;
+
+  @include respond_to(tablet-and-larger) {
+    // Show all page content by accounting for header height
+    margin-top: 60px;
+  }
 }
 
 .flex-wrapper {

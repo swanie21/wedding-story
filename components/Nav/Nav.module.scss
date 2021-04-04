@@ -25,11 +25,13 @@
     }
 
     &--list {
+      height: 0;
       visibility: hidden;
 
       @include respond_to(tablet-and-larger) {
         display: flex;
         flex-direction: row;
+        height: initial;
         list-style: none;
         margin: 0;
         padding-left: 0;
