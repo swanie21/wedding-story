@@ -40,6 +40,10 @@
   &__card {
     margin: 0 0 30px;
 
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
     @include respond_to(tablet-and-larger) {
       margin: -150px 0 0 0;
     }

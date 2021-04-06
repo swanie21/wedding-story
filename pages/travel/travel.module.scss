@@ -9,7 +9,11 @@
   }
 
   &__section {
-    margin: 100px 0;
+    margin: 30px;
+
+    @include respond_to(desktop) {
+      margin: 100px 0;
+    }
   }
 
   &__details {
@@ -21,7 +25,10 @@
       border-radius: 6px;
       position: relative;
       padding: 30px;
-      width: 550px;
+
+      @include respond_to(desktop) {
+        width: 550px;
+      }
     }
 
     > ul {
@@ -54,47 +61,63 @@
   }
 
   &__image {
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 550px;
+    height: 400px;
+    width: 400px;
 
     @include respond_to(desktop) {
       background-attachment: fixed;
+      width: 550px;
     }
 
     &-1 {
-      background-position: right;
-      background-size: 58% 60%;
-      height: 412px;
+      @include respond_to(desktop) {
+        background-position: right;
+        background-size: 58% 60%;
+        height: 412px;
+      }
     }
 
     &-2 {
-      background-position: left;
-      background-size: 42% 48%;
-      height: 374px;
+      @include respond_to(desktop) {
+        background-position: left;
+        background-size: 42% 48%;
+        height: 374px;
+      }
     }
 
     &-3 {
-      background-position: right;
-      background-size: 42% 48%;
-      height: 413px;
+      @include respond_to(desktop) {
+        background-position: right;
+        background-size: 42% 48%;
+        height: 413px;
+      }
     }
 
     &-4 {
-      background-position: left;
-      background-size: 42% 48%;
-      height: 366px;
+      @include respond_to(desktop) {
+        background-position: left;
+        background-size: 42% 48%;
+        height: 366px;
+      }
     }
 
     &-5 {
-      background-position: bottom right;
-      background-size: 42% 48%;
-      height: 328px;
+      @include respond_to(desktop) {
+        background-position: bottom right;
+        background-size: 42% 48%;
+        height: 328px;
+      }
     }
 
     &-6 {
-      background-position: bottom left;
-      background-size: 42% 48%;
-      height: 400px;;
+      @include respond_to(desktop) {
+        background-position: bottom left;
+        background-size: 42% 48%;
+        height: 400px;;
+      }
     }
   }
 }
