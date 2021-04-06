@@ -30,16 +30,6 @@
       @content;
     }
   }
-  @if $media == desktop-medium {
-    @media only screen and (min-width: 1390px) {
-      @content;
-    }
-  }
-  @if $media == desktop-largest {
-    @media only screen and (min-width: 1575px) {
-      @content;
-    }
-  }
   // Max-width media queries
   @if $media == tablet-and-smaller {
     @media only screen and (max-width: 768px) {

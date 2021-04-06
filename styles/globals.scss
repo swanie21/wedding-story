@@ -1,3 +1,4 @@
+@import 'base/reset';
 @import 'base/colors';
 @import 'base/typography';
 @import 'utils/media-queries';
@@ -35,6 +36,26 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 350px;
-  width: 50%;
+  width: 100%;
+
+  @include respond_to(mobile-large-and-larger) {
+    min-width: 300px;
+    width: 50%;
+  }
+
+  &-1 {
+    order: 1;
+
+    @include respond_to(mobile-large-and-larger) {
+      order: 2;
+    }
+  }
+
+  &-2 {
+    order: 2;
+
+    @include respond_to(mobile-large-and-larger) {
+      order: 1;
+    }
+  }
 }

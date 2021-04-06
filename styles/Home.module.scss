@@ -8,11 +8,13 @@
     color: $white;
     font-size: 40px;
     line-height: 50px;
+    margin-bottom: 30px;
     text-align: center;
 
     @include respond_to(desktop) {
       font-size: 100px;
       line-height: 110px;
+      margin-bottom: 50px;
     }
   }
 

@@ -3,14 +3,9 @@
 
 h1 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 38px;
-
-  @include respond_to(tablet-and-larger) {
-    font-size: 40px;
-    line-height: 50px;
-  }
+  line-height: 50px;
 }
 
 h2 {
@@ -51,7 +46,7 @@ a {
   transition: color .35s linear;
 
   &:hover {
-    color: darken($blue, 15%);  
+    color: darken($blue, 15%);
     cursor: pointer;
     text-decoration: none;
   }

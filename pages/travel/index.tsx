@@ -29,10 +29,10 @@ const Travel: React.FunctionComponent = () => {
         </div>
         <h1>Accommodations</h1>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
-          <div className="flex-half">
+          <div className="flex-half flex-half-2">
             <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img"  style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
           </div>
-          <div className="flex-half">
+          <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-2']}`} />
               <div className={styles['travel__details']}>
@@ -63,10 +63,10 @@ const Travel: React.FunctionComponent = () => {
           </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
-          <div className="flex-half">
+          <div className="flex-half flex-half-2">
             <div className={`${styles['travel__image']} ${styles['travel__image-4']}`} role="img"  style={{ backgroundImage: `url('/marble-distillery-inn.jpeg')` }} />
           </div>
-          <div className="flex-half">
+          <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-4']} `} />
               <div className={styles['travel__details']}>
@@ -99,10 +99,10 @@ const Travel: React.FunctionComponent = () => {
           </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
-          <div className="flex-half">
+          <div className="flex-half flex-half-2">
             <div className={`${styles['travel__image']} ${styles['travel__image-6']}`} role="img"  style={{ backgroundImage: `url('/glenwood-canyon.jpeg')` }} />
           </div>
-          <div className="flex-half">
+          <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-6']}`} />
               <div className={styles['travel__details']}>
