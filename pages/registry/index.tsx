@@ -1,5 +1,4 @@
 import styles from './registry.module.scss';
-import Image from 'next/image';
 import { Meta } from '../../components/Meta';
 import { Nav } from '../../components/Nav';
 
@@ -9,10 +8,9 @@ const AdventureFund: React.FunctionComponent = () => {
       <Meta canonical="/registry" />
       <Nav />
       <main className={styles.registry}>
-        <h1>Adventure Fund</h1>
-        <Image src="/plane.svg" height="200" width="500" />
-        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <a href="https://www.myregistry.com/giftlist/drewandkirstenbasaltwedding" rel="noreferrer" target="_blank">TEST</a>
+        <h1>The Barton Fund</h1>
+        <p>Your presence at our wedding is all that we wish for. However, if you want to give a gift, we will be grateful to a cash donation towards our new lives together. Thank you for all of your love and support!</p>
+        <a href="https://www.myregistry.com/giftlist/drewandkirstenbasaltwedding" rel="noreferrer" target="_blank">Click to donate</a>
       </main>
     </>
   );

@@ -4,31 +4,20 @@ import { Meta } from '../components/Meta';
 import { Nav } from '../components/Nav';
 import styles from '../styles/Home.module.scss';
 
-const getWindowSize = () => {
-  const [windowSize, setWindowSize] = useState({
-    height: undefined,
-    width: undefined,
-  });
+const Home: React.FunctionComponent = () => {
+  const [height, setHeight] = useState(0);
+  const [width, setWidth] = useState(0);
+
+  let resizeWindow = () => {
+    setHeight(window.innerHeight);
+    setWidth(window.innerWidth);
+  };
 
   useEffect(() => {
-    const handleResize = () => {
-      setWindowSize({
-        height: window.innerHeight,
-        width: window.innerWidth,
-      });
-    }
-
-    window.addEventListener("resize", handleResize);
-
-    handleResize();
-
-    return () => window.removeEventListener("resize", handleResize);
+    resizeWindow();
+    window.addEventListener("resize", resizeWindow);
+    return () => window.removeEventListener("resize", resizeWindow);
   }, []);
-  return windowSize;
-}
-
-const Home: React.FunctionComponent = () => {
-  const size = getWindowSize();
 
   return (
     <>
@@ -38,8 +27,8 @@ const Home: React.FunctionComponent = () => {
         <main className={styles.home}>
           <Confetti
             colors={['#7400B8','#6930C3','#5E60CE','#5390D9','#4EA8DE','#56CFE1','#64DFDF','#72EFDD','#80FFDB']}
-            height={size.height}
-            width={size.width}
+            height={height}
+            width={width}
           />
           <h1 className={styles.title}>Drew & Kirsten</h1>
           <h2>Saturday, August 7th 2021</h2>

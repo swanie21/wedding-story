@@ -1,0 +1,22 @@
+@import '../../styles/base/colors';
+@import '../../styles/utils/media-queries';
+
+.wedding-party {
+
+  > h1 {
+    text-align: center;
+
+    @include respond_to(desktop) {
+      margin-top: 30px;
+    }
+  }
+
+  &__headshot {
+    max-width: 400px;
+
+    > img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+}

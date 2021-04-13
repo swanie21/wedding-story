@@ -15,11 +15,11 @@ const Travel: React.FunctionComponent = () => {
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-1']}`} />
               <div className={styles['travel__details']}>
                 <h2>Swanson Residence</h2>
-                <p>Address: <a href="https://g.page/elementbasaltaspen?share" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
-                <p>Ceremony and reception to follow at the same location</p>
-                <p>Parking allowed in the neighborhood</p>
+                <p>Address: <a href="https://goo.gl/maps/NndR1pL8ptDMCx3k7" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
+                <p>Ceremony and reception in the backyard</p>
+                <p>Parking allowed around the neighborhood</p>
                 <p>Shuttle service from the Element hotel</p>
-                <p>Dress is business casual</p>
+                <p>Dress attire is business casual - wear appropriate shoes for grass and bring a light sweater or coat for the evening</p>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Travel: React.FunctionComponent = () => {
                 <h2>Basalt Mountain Inn</h2>
                 <p>Address: <a href="https://goo.gl/maps/Abo4gPdov4RusnPw8" rel="noreferrer" target="_blank">220 Midland Ave, Basalt, CO 81621</a> (located in downtown Basalt)</p>
                 <p>10 minutes driving to the Swanson residence</p>
-                <p>More information and booking: <a href="https://www.basaltmountaininn.com/https://www.basaltmountaininn.com/" rel="noreferrer" target="_blank">Basalt Mountain Inn website</a></p>
+                <p>More information and booking: <a href="https://www.basaltmountaininn.com/" rel="noreferrer" target="_blank">Basalt Mountain Inn website</a></p>
               </div>
             </div>
           </div>
@@ -84,12 +84,12 @@ const Travel: React.FunctionComponent = () => {
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-5']}`} />
               <div className={styles['travel__details']}>
-                <p>Flying into Apen/Pitkin airport (ASE) is the closest option to Basalt (~20 minute drive to Hotel)</p>
+                <p>Flying into Aspen/Pitkin airport (ASE) is the closest option to Basalt (~20 minute drive to Hotel).</p>
                 <ul>
                   <li>Direct flights offered by United and American Airlines</li>
                   <li>Daily connecting flights if flying through DEN</li>
                   <li>Car rentals: <a href="https://www.aspenairport.com/parking-transportation/rental-cars/" rel="noreferrer" target="_blank">Aspen Rental Cars</a></li>
-                  <li>Other Aspen to Basalt transportation: https://www.rome2rio.com/s/Aspen/Basalt</li>
+                  <li>Other Aspen to Basalt transportation: <a href="https://www.rome2rio.com/s/Aspen/Basalt" rel="noreferrer" target="_blank">https://www.rome2rio.com/s/Aspen/Basalt</a></li>
                 </ul>
               </div>
             </div>
@@ -106,11 +106,12 @@ const Travel: React.FunctionComponent = () => {
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-6']}`} />
               <div className={styles['travel__details']}>
-                <p>Flying into Denver airport (DEN) is probably the cheapest option to get to CO. Leaves a beautiful 3.5 - 4 hour drive west on I-70 through the scenic Coloradan Rocky Mountains to get to Basalt</p>
+                <p>Flying into Denver airport (DEN) is probably the cheapest option to get to CO. Leaves roughly a 3.5 hour drive west on I-70 through the scenic Coloradan Rocky Mountains to get to Basalt.</p>
                 <ul>
                   <li>Direct flights offered by: Southwest, United, Delta, American, Spirit, Frontier, and JetBlue Airlines</li>
-                  <li>Denver Rental Cars: https://www.flydenver.com/parking_transit/car-rentals</li>
-                  <li>Denver to Basalt transportation: https://www.rome2rio.com/s/Denver/Basalt</li>
+                  <li>Car rentals: <a href="https://www.flydenver.com/parking_transit/car-rentals" rel="noreferrer" target="_blank">Denver Rental Cars</a></li>
+                  <li>Shuttle van from DIA to Snowmass: <a href="https://www.epicmountainexpress.com/" rel="noreferrer" target="_blank">Epic Mountain Express</a></li>
+                  <li>Other Denver to Basalt transportation: <a href="https://www.rome2rio.com/s/Denver/Basalt" rel="noreferrer" target="_blank">https://www.rome2rio.com/s/Denver/Basalt</a></li>
                 </ul>
               </div>
             </div>
