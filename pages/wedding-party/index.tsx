@@ -9,57 +9,64 @@ const WeddingParty: React.FunctionComponent = () => {
       <Nav />
       <main className={styles['wedding-party']}>
         <h1>Wedding Party</h1>
-        <h2>The Gentlemen</h2>
-        <ul>
-          <li>
-            <div>
-              <div className={styles['wedding-party__headshot']}>
-                <img src="/ben.jpg" height="" width="" />
+        <div className={styles['wedding-party__headshots']}>
+          <ul>
+            <li><h2 className={styles['wedding-party__subtitle']}>The Lads</h2></li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/ben.jpg')` }}>
+                <p>Best Man: Ben Barton</p>
               </div>
-              <p>Ben Barton</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <div className={styles['wedding-party__headshot']}>
-                <img src="/xander.jpg" height="" width="" />
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/xander.jpg')` }}>
+                <p>Xander Starekow</p>
               </div>
-              <p>Xander Starekow</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <div className={styles['wedding-party__headshot']}>
-                <img src="/matty.jpg" height="" width="" />
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/matty.jpg')` }}>
+                <p>Matty Williams</p>
               </div>
-              <p>Matty Williams</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <div className={styles['wedding-party__headshot']}>
-                <img src="/taylor.jpg" height="" width="" />
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/taylor.jpg')` }}>
+                <p>Taylor Garner</p>
               </div>
-              <p>Taylor Garner</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <div className={styles['wedding-party__headshot']}>
-                <img src="/cosi.jpg" height="" width="" />
-              </div>  
-              <p>Cosimo Leone</p>
-            </div>
-          </li>
-        </ul>
-        <h2>The Ladies</h2>
-        <ul>
-          <li>Nicole Beckett</li>
-          <li>Kristen Wakeman</li>
-          <li>Alicia Hays</li>
-          <li>Lindesy Moore</li>
-          <li>Lucia Ulc</li>
-        </ul>
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/cosi.jpg')` }}>
+                <p>Cosimo Leone</p>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li><h2 className={`${styles['wedding-party__subtitle']} ${styles['wedding-party__subtitle-2']}`}>The Ladies</h2></li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/coley.jpg')` }}>
+                <p>Maid of Honor: Nicole Beckett</p>
+              </div>
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/kristen.jpg')` }}>
+                <p>Kristen Wakeman</p>
+              </div>
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/alicia.jpg')` }}>
+                <p>Alicia Hays</p>
+              </div>
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/lindsey.jpg')` }}>
+                <p>Lindesy Moore</p>
+              </div>
+            </li>
+            <li className={styles['wedding-party__profile']}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/lucia.jpg')` }}>
+                <p>Lucia Ulc</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </main>
     </>
   );

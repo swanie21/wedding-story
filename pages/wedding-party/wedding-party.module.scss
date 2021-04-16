@@ -2,21 +2,76 @@
 @import '../../styles/utils/media-queries';
 
 .wedding-party {
+  background-color: lighten($blue, 10%);
 
   > h1 {
+    margin-bottom: 30px;
     text-align: center;
 
     @include respond_to(desktop) {
-      margin-top: 30px;
+      margin: 30px 0;
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+
+    &-2 {
+      margin-top: 60px;
+
+      @include respond_to(tablet-and-larger) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__headshots {
+    @include respond_to(tablet-and-larger) {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 30px 40px;
+
+    @include respond_to(tablet-and-larger) {
+      margin: 0 30px 50px 60px;
     }
   }
 
   &__headshot {
-    max-width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    height: 300px;
+    position: relative;
+    width: 100%;
 
-    > img {
-      max-height: 100%;
-      max-width: 100%;
+    @include respond_to(mobile-small-and-larger) {
+      height: 400px;
+      width: 400px;
+    }
+
+    > p {
+      align-items: center;
+      background-color: $white;
+      border-radius: 6px 0 0 6px;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      left: -30px;
+      margin: 0;
+      position: absolute;
+      text-align: center;
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      top: 0;
+      width: 40px;
     }
   }
 }

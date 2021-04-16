@@ -14,27 +14,56 @@ const Travel: React.FunctionComponent = () => {
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--block-1']}`} />
               <div className={styles['travel__details']}>
-                <h2>Swanson Residence</h2>
-                <p>Address: <a href="https://goo.gl/maps/NndR1pL8ptDMCx3k7" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
-                <p>Ceremony and reception in the backyard</p>
-                <p>Parking allowed around the neighborhood</p>
-                <p>Shuttle service from the Element hotel</p>
-                <p>Dress attire is business casual - wear appropriate shoes for grass and bring a light sweater or coat for the evening</p>
+                <h2>Ceremony</h2>
+                <p>Swanson residence address: <a href="https://goo.gl/maps/NndR1pL8ptDMCx3k7" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
+                <p>Ceremony starts at 6:00pm with reception to follow</p>
+                <p>Pre-ceremony beverage welcome gathering to begin at 5:00pm</p>
+                <p>Shuttle service provided between the house and the Element hotel between 5:00pm - 12:00am</p>
               </div>
             </div>
           </div>
           <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-1']}`} role="img"  style={{ backgroundImage: `url('/wedding-venue.jpg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-1']}`} role="img" style={{ backgroundImage: `url('/wedding-venue.jpg')` }} />
+          </div>
+        </div>
+        <div className={`flex-wrapper ${styles['travel__section']}`}>
+          <div className="flex-half flex-half-2">
+            <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img" style={{ backgroundImage: `url('/map.jpg')` }} />
+          </div>
+          <div className="flex-half flex-half-1">
+            <div className={styles['travel__details--container']}>
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-2']}`} />
+              <div className={styles['travel__details']}>
+                <h2>Element Hotel Distance to Venue</h2>
+                <p>Walking to venue is roughly 13 minutes and driving is 4 minutes</p>
+                <p>Parking allowed around the inner edge of Lewis Lane (green oval on the map)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`flex-wrapper ${styles['travel__section']}`}>
+          <div className="flex-half">
+            <div className={styles['travel__details--container']}>
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-3']}`} />
+              <div className={styles['travel__details']}>
+                <h2>Reception</h2>
+                <p>Dress attire is business casual - wear appropriate shoes for grass and dancing, and bring a light sweater or coat for the evening</p>
+                <p>Reception will begin winding down around 11:00pm with shuttle service until 12:00am</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-3']}`} role="img" style={{ backgroundImage: `url('/tent.png')` }} />
           </div>
         </div>
         <h1>Accommodations</h1>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half flex-half-2">
-            <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img"  style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-4']}`} role="img" style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
           </div>
           <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-2']}`} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-4']}`} />
               <div className={styles['travel__details']}>
                 <h2>Element Basalt</h2>
                 <p>Address: <a href="https://g.page/elementbasaltaspen?share" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
@@ -49,7 +78,7 @@ const Travel: React.FunctionComponent = () => {
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-3']}`} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-5']}`} />
               <div className={styles['travel__details']}>
                 <h2>Basalt Mountain Inn</h2>
                 <p>Address: <a href="https://goo.gl/maps/Abo4gPdov4RusnPw8" rel="noreferrer" target="_blank">220 Midland Ave, Basalt, CO 81621</a> (located in downtown Basalt)</p>
@@ -59,16 +88,16 @@ const Travel: React.FunctionComponent = () => {
             </div>
           </div>
           <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-3']}`} role="img"  style={{ backgroundImage: `url('/basalt-mountain-inn.jpeg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-5']}`} role="img" style={{ backgroundImage: `url('/basalt-mountain-inn.jpeg')` }} />
           </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half flex-half-2">
-            <div className={`${styles['travel__image']} ${styles['travel__image-4']}`} role="img"  style={{ backgroundImage: `url('/marble-distillery-inn.jpeg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-6']}`} role="img" style={{ backgroundImage: `url('/marble-distillery-inn.jpeg')` }} />
           </div>
           <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-4']} `} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-6']} `} />
               <div className={styles['travel__details']}>
                 <h2>Carbondale Hotels</h2>
                 <p><a href="https://g.page/MarbleDistilling?share" rel="noreferrer" target="_blank">Marble Distilling Co. & The Distillery In</a></p>
@@ -82,8 +111,9 @@ const Travel: React.FunctionComponent = () => {
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-5']}`} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-1']}`} />
               <div className={styles['travel__details']}>
+                <h2>Flying to Aspen</h2>
                 <p>Flying into Aspen/Pitkin airport (ASE) is the closest option to Basalt (~20 minute drive to Hotel).</p>
                 <ul>
                   <li>Direct flights offered by United and American Airlines</li>
@@ -95,17 +125,18 @@ const Travel: React.FunctionComponent = () => {
             </div>
           </div>
           <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-5']}`} role="img"  style={{ backgroundImage: `url('/aspen-pitkin-airport.jpeg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-7']}`} role="img" style={{ backgroundImage: `url('/aspen-pitkin-airport.jpeg')` }} />
           </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half flex-half-2">
-            <div className={`${styles['travel__image']} ${styles['travel__image-6']}`} role="img"  style={{ backgroundImage: `url('/glenwood-canyon.jpeg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-8']}`} role="img" style={{ backgroundImage: `url('/glenwood-canyon.jpeg')` }} />
           </div>
           <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-6']}`} />
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--block-2']}`} />
               <div className={styles['travel__details']}>
+                <h2>Flying to Denver</h2>
                 <p>Flying into Denver airport (DEN) is probably the cheapest option to get to CO. Leaves roughly a 3.5 hour drive west on I-70 through the scenic Coloradan Rocky Mountains to get to Basalt.</p>
                 <ul>
                   <li>Direct flights offered by: Southwest, United, Delta, American, Spirit, Frontier, and JetBlue Airlines</li>

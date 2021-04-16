@@ -133,16 +133,16 @@
     &-2 {
       @include respond_to(desktop) {
         background-position: left;
-        background-size: 42% 48%;
-        height: 374px;
+        background-size: 45% 55%;
+        height: 412px;
       }
     }
 
     &-3 {
       @include respond_to(desktop) {
         background-position: right;
-        background-size: 42% 48%;
-        height: 413px;
+        background-size: 42% 50%;
+        height: 367px;
       }
     }
 
@@ -150,11 +150,27 @@
       @include respond_to(desktop) {
         background-position: left;
         background-size: 42% 48%;
-        height: 366px;
+        height: 374px;
       }
     }
 
     &-5 {
+      @include respond_to(desktop) {
+        background-position: right;
+        background-size: 42% 48%;
+        height: 413px;
+      }
+    }
+
+    &-6 {
+      @include respond_to(desktop) {
+        background-position: left;
+        background-size: 42% 48%;
+        height: 366px;
+      }
+    }
+
+    &-7 {
       @include respond_to(desktop) {
         background-position: bottom right;
         background-size: 42% 48%;
@@ -162,7 +178,7 @@
       }
     }
 
-    &-6 {
+    &-8 {
       @include respond_to(desktop) {
         background-position: bottom left;
         background-size: 42% 48%;
