@@ -10,7 +10,16 @@
   }
 
   > h1 {
+    margin-left: 30px;
     text-align: center;
+
+    @include respond_to(tablet-large-and-larger) {
+      margin-left: 0;
+    }
+
+    @include respond_to(desktop) {
+      margin-top: 30px;
+    }
   }
 
   &__list {

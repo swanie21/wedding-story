@@ -51,7 +51,7 @@ const WeddingParty: React.FunctionComponent = () => {
               </div>
             </li>
             <li className={styles['wedding-party__profile']}>
-              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/alicia.jpg')` }}>
+              <div className={styles['wedding-party__headshot']} style={{ backgroundImage: `url('/alicia.JPG')` }}>
                 <p>Alicia Hays</p>
               </div>
             </li>

@@ -2,7 +2,9 @@
 @import '../../styles/utils/media-queries';
 
 .travel {
-  padding-top: 30px;
+  // Needed for the absolute positioned elements to appear behind mobile nav when open
+  position: relative;
+  z-index: -1;
 
   > h1 {
     text-align: center;
@@ -13,20 +15,49 @@
   }
 
   &__section {
-    margin: 60px 20px;
+    margin: 30px 0 50px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
 
     @include respond_to(mobile-large-and-larger) {
-      margin: 100px 30px;
+      margin: 30px 0 0;
+    }
+
+    @include respond_to(tablet-large-and-larger) {
+      margin: 60px 0 30px;
     }
 
     @include respond_to(desktop) {
       margin: 100px 0;
+
+      &:last-of-type {
+        margin-bottom: 50px;
+      }
+    }
+
+    .flex-half {
+      @include respond_to(tablet-large-and-larger) {
+        align-items: flex-end;
+      }
+
+      @include respond_to(desktop) {
+        align-items: center;
+      }
     }
   }
 
   &__details {
     margin: auto;
-    max-width: 370px;
+
+    @include respond_to(mobile-large-and-larger) {
+      max-width: 350px;
+    }
+
+    @include respond_to(desktop) {
+      max-width: 370px;
+    }
 
     > h2 {
       margin-top: 0;
@@ -36,16 +67,11 @@
       background-color: $white;
       border-radius: 6px;
       position: relative;
-      padding: 20px;
       width: 100%;
 
       @include respond_to(mobile-large-and-larger) {
         padding: 30px;
         width: initial;
-      }
-
-      @include respond_to(desktop) {
-        width: 550px;
       }
     }
 
@@ -58,22 +84,7 @@
       }
     }
 
-    &--block {
-      border-radius: 6px;
-      display: block;
-      height: 150px;
-      left: -20px;
-      opacity: 0.5;
-      position: absolute;
-      width: 150px;
-      top: -20px;
-      z-index: -1;
-
-      @include respond_to(mobile-large-and-larger) {
-        left: -40px;
-        top: -40px;
-      }
-
+    &--accent-color {
       &-1 {
         background-color: $turqoise;
       }
@@ -96,6 +107,45 @@
 
       &-6 {
         background-color: $periwinkle;
+      }
+    }
+
+    &--block {
+      @include respond_to(tablet-large-and-larger) {
+        border-radius: 6px;
+        display: block;
+        height: 150px;
+        left: -40px;
+        opacity: 0.5;
+        position: absolute;
+        top: -40px;
+        width: 150px;
+        z-index: -1;
+      }
+    }
+
+    &--title {
+      position: relative;
+      width: fit-content;
+
+      > h2 {
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 10;
+      }
+
+      &-highlight {
+        bottom: -10px;
+        height: 25px;
+        left: -5px;
+        opacity: 0.6;
+        position: absolute;
+        width: 80%;
+        z-index: 1;
+
+        @include respond_to(tablet-large-and-larger) {
+          display: none;
+        }
       }
     }
   }
@@ -125,7 +175,7 @@
     &-1 {
       @include respond_to(desktop) {
         background-position: right;
-        background-size: 58% 60%;
+        background-size: 60% 62%;
         height: 412px;
       }
     }

@@ -2,12 +2,64 @@
 @import '../../styles/utils/media-queries';
 
 .registry {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include respond_to(tablet-and-larger) {
+    flex-direction: row;
+  }
 
   > h1 {
     text-align: center;
 
     @include respond_to(desktop) {
       margin-top: 30px;
+    }
+  }
+
+  &__iframe {
+    height: 150px;
+    // Remove default hover on Giphy gifs
+    pointer-events: none;
+    width: 150px;
+
+    @include respond_to(mobile-large-and-larger) {
+      height: 300px;
+      width: 300px;
+    }
+
+    @include respond_to(tablet-large-and-larger) {
+      height: 400px;
+      width: 400px;
+    }
+
+    &--credit {
+      display: none;
+    }
+  }
+
+  &__info {
+    @include respond_to(mobile-large-and-larger) {
+      margin-left: 30px;
+      max-width: 510px;
+      padding-right: 30px;
+    }
+  }
+
+  &__button {
+    background: linear-gradient(-40deg, $blue, $blue-sky, $seafoam);
+    border-radius: 6px;
+    color: $white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 30px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      color: $white;
+      transform: translateY(-8px);
     }
   }
 }

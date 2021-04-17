@@ -9,6 +9,13 @@ body {
   margin: 0;
 }
 
+// Prevent scrolling on body when mobile nav menu is open
+body {
+  &.position-fixed {
+    position: fixed;
+  }
+}
+
 * {
   box-sizing: border-box;
 }

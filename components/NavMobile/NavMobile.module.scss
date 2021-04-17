@@ -4,7 +4,7 @@
 .nav {
   &__hamburger-menu {
     display: block;
-    padding: 24px 20px 20px;
+    padding: 20px;
     position: relative;
     z-index: 1;
 
@@ -117,6 +117,7 @@
       width: 100vw;
 
       @include respond_to(mobile-small-and-larger) {
+        margin: 0 0 0 55px;
         padding: 50px;
       }
 

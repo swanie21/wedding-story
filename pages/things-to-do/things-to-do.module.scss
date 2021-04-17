@@ -1,0 +1,13 @@
+@import '../../styles/base/colors';
+@import '../../styles/utils/media-queries';
+
+.activities {
+
+  > h1 {
+    text-align: center;
+
+    @include respond_to(desktop) {
+      margin-top: 30px;
+    }
+  }
+}

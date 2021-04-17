@@ -1,9 +1,19 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './NavMobile.module.scss';
 
 export const NavMobile: React.FunctionComponent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if(menuOpen === true) {
+      document.body.classList.add('position-fixed');
+    }
+
+    return function cleanup() {
+      document.body.classList.remove('position-fixed');
+    };
+  }, [menuOpen]);
 
   return (
     <div className={styles['nav__hamburger-menu']} role="navigation" aria-labelledby="mobile nav">

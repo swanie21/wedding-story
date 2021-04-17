@@ -1,3 +1,4 @@
+import styles from './things-to-do.module.scss';
 import { Meta } from '../../components/Meta';
 import { Nav } from '../../components/Nav';
 
@@ -6,7 +7,7 @@ const ThingsToDo: React.FunctionComponent = () => {
     <>
       <Meta canonical="/things-to-do" />
       <Nav />
-      <main>
+      <main className={styles.activities}>
         <h1>Things to do</h1>
         <section>
           <h2>Food & Beverage</h2>
