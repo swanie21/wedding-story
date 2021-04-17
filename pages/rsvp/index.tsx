@@ -11,8 +11,9 @@ const Rsvp: React.FunctionComponent = () => {
         <div className="flex-wrapper">
           <div className={styles['rsvp__description']}>
             <h1>Kindly RSVP</h1>
-            <p>Please fill out the form for yourself and your guest. Children are allowed, but please fill out the form for them, so that we may get an accurate head count.</p>
-            <p>If you are filling out the form more than once you will need to refresh the browser.</p>
+            <p>Please fill out the form for yourself and your guest (one form per guest). Children are allowed, but please fill out the form for them, so that we may get an accurate head count.</p>
+            <p>If you are filling out the form for multiple people, please refresh the page for a new form.</p>
+            <p>For other inquiries please don't hesitate to reach out to us at drewbarton@gmail.com or kswanie21@gmail.com.</p>
           </div>
           <div className={styles['rsvp__form']}>
             <div className={styles['rsvp__form--container']}>

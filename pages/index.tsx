@@ -22,19 +22,18 @@ const Home: React.FunctionComponent = () => {
   return (
     <>
       <Meta canonical="/home" />
-      <div className={styles.container}>
-        <Nav />
-        <main className={styles.home}>
-          <Confetti
-            colors={['#7400B8','#6930C3','#5E60CE','#5390D9','#4EA8DE','#56CFE1','#64DFDF','#72EFDD','#80FFDB']}
-            height={height}
-            width={width}
-          />
-          <h1 className={styles.title}>Drew & Kirsten</h1>
-          <h2>Saturday, August 7th 2021</h2>
-          <h2>6 o'clock evening ceremony with reception to follow</h2>
-        </main>
-      </div>
+      <Nav />
+      <main className={styles.home}>
+        <Confetti
+          colors={['#7400B8','#6930C3','#5E60CE','#5390D9','#4EA8DE','#56CFE1','#64DFDF','#72EFDD','#80FFDB']}
+          height={height}
+          width={width}
+        />
+        <h1 className={styles.title}>Drew & Kirsten</h1>
+        <h2>Saturday, August 7th 2021</h2>
+        <h3>Beginning at 5 o'clock, pre-ceremony beverages and gathering</h3>
+        <h3>6 o'clock evening ceremony with reception to follow</h3>
+      </main>
     </>
   );
 };
