@@ -4,7 +4,7 @@
 .header {
   background-color: $periwinkle;
   height: 60px;
-  z-index: 1;
+  z-index: 1000;
 
   @include respond_to(tablet-and-larger) {
     position: fixed;

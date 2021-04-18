@@ -236,7 +236,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="Steve, Glenna, Jim and Beth" src="/parents.jpg" height="258" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>April 9, 2021</p>
-                <p className={styles['timeline__card--description']}>Our parents met for the first time! They enjoyed helping Drew and Kirsten taste and select food for their wedding menu.</p>
+                <p className={styles['timeline__card--description']}>Our parents met for the first time! They enjoyed playing pickleball, tennis, flyfishing, and even dancing together.</p>
               </div>
             </Slide>
           </li>

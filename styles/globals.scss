@@ -12,7 +12,11 @@ body {
 // Prevent scrolling on body when mobile nav menu is open
 body {
   &.position-fixed {
+    bottom: 0;
+    left: 0;
     position: fixed;
+    right: 0;
+    top: 0;
   }
 }
 
@@ -64,5 +68,13 @@ main {
     @include respond_to(mobile-large-and-larger) {
       order: 1;
     }
+  }
+}
+
+// Needed for the absolute positioned elements to appear behind mobile nav when open
+#travel-page {
+  &.adjust-layering {
+    position: relative;
+    z-index: -1;
   }
 }

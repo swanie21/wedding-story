@@ -7,7 +7,7 @@ const Travel: React.FunctionComponent = () => {
     <>
       <Meta canonical="/travel" />
       <Nav />
-      <main className={styles.travel}>
+      <main className={styles.travel} id="travel-page">
         <h1>Venue</h1>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className={`flex-half ${styles['flex-half']}`}>
@@ -18,7 +18,7 @@ const Travel: React.FunctionComponent = () => {
                   <h2>Ceremony</h2>
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-1']}`} />
                 </div>
-                <p>Swanson residence address: <a href="https://goo.gl/maps/NndR1pL8ptDMCx3k7" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
+                <p>Swanson residence address: <a href="https://goo.gl/maps/NndR1pL8ptDMCx3k7" rel="noreferrer" target="_blank">422 Lewis Lane Basalt, Colorado 81621</a></p>
                 <p>Ceremony starts at 6:00pm with reception to follow</p>
                 <p>Pre-ceremony beverage welcome gathering to begin at 5:00pm</p>
                 <p>Shuttle service provided between the house and the Element hotel between 5:00pm - 12:00am</p>

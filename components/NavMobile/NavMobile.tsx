@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import styles from './NavMobile.module.scss';
 
 export const NavMobile: React.FunctionComponent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     if(menuOpen === true) {
@@ -12,6 +14,20 @@ export const NavMobile: React.FunctionComponent = () => {
 
     return function cleanup() {
       document.body.classList.remove('position-fixed');
+    };
+  }, [menuOpen]);
+
+  useEffect(() => {
+    const travelPage = document.getElementById('travel-page');
+
+    if(menuOpen === true && router.pathname == '/travel') {
+      travelPage.classList.add('adjust-layering');
+    }
+
+    return function cleanup() {
+      if(travelPage && router.pathname == '/travel') {
+        travelPage.classList.remove('adjust-layering');
+      }
     };
   }, [menuOpen]);
 

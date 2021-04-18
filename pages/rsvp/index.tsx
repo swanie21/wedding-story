@@ -13,7 +13,7 @@ const Rsvp: React.FunctionComponent = () => {
             <h1>Kindly RSVP</h1>
             <p>Please fill out the form for yourself and your guest (one form per guest). Children are allowed, but please fill out the form for them, so that we may get an accurate head count.</p>
             <p>If you are filling out the form for multiple people, please refresh the page for a new form.</p>
-            <p>For other inquiries, don't hesitate to reach out to us at drewbarton@gmail.com or kswanie21@gmail.com.</p>
+            <p>For other inquiries, don't hesitate to reach out to us at drewbarton10@gmail.com or kswanie21@gmail.com.</p>
           </div>
           <div className={styles['rsvp__form']}>
             <div className={styles['rsvp__form--container']}>
