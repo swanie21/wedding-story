@@ -82,7 +82,7 @@ const Travel: React.FunctionComponent = () => {
                 <p>16 miles from the Aspen/Pitkin County Airport</p>
                 <p>13 minutes walking or 4 minutes driving to the Swanson residence</p>
                 <p>We will be having a shuttle from this hotel  transport guests to the wedding venue</p>
-                <p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1594057158691&key=GRP&app=resvlink" rel="noreferrer" target="_blank">Click here</a> to book discounted rate</p>
+                <p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1594057158691&key=GRP&app=resvlink" rel="noreferrer" target="_blank">Click here</a> to book wedding block discounted rate</p>
               </div>
             </div>
           </div>

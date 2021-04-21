@@ -21,6 +21,11 @@
     margin-bottom: 30px;
     text-align: center;
 
+    @include respond_to(mobile-medium-and-larger) {
+      font-size: 60px;
+      line-height: 70px;
+    }
+
     @include respond_to(tablet-and-larger) {
       font-size: 100px;
       line-height: 110px;

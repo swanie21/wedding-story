@@ -26,7 +26,7 @@
   }
 
   &__form {
-    background-color: $blue-aqua;
+    background: linear-gradient(-45deg, $seafoam 0%, $blue-aqua 25%, $blue-sky 50%, $blue 75%, $periwinkle 100%);
     border-radius: 10px;
     padding: 20px;
     width: 100%;
