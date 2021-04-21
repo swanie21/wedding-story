@@ -7,13 +7,17 @@
   animation: animatedGradient 6s ease infinite;
   align-items: center;
   background: linear-gradient(-40deg, $violet, $blue, $blue-aqua, $aquamarine);
-  background-size: 200% 200%;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   // Full height of page less nav height
   height: calc(100vh -  60px);
   padding: 0;
+
+  @include respond_to(mobile-large-and-larger) {
+    background-size: 200% 200%;
+  }
 
   > h1 {
     color: $white;
