@@ -37,7 +37,7 @@ const Travel: React.FunctionComponent = () => {
               <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-2']}`} />
               <div className={styles['travel__details']}>
                 <div className={styles['travel__details--title']}>
-                  <h2>If staying at the Element Basalt Hotel - distance to Venue</h2>
+                  <h2>If staying at the Element Basalt Hotel - distance to venue</h2>
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-2']}`} />
                 </div>
                 <p>Walking to venue is roughly 13 minutes and driving is 4 minutes</p>
