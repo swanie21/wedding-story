@@ -21,7 +21,6 @@ const Travel: React.FunctionComponent = () => {
                 <p>Swanson residence address: <a href="https://goo.gl/maps/NndR1pL8ptDMCx3k7" rel="noreferrer" target="_blank">422 Lewis Lane Basalt, Colorado 81621</a></p>
                 <p>Ceremony starts at 6:00pm with reception to follow</p>
                 <p>Pre-ceremony beverage welcome gathering to begin at 5:00pm</p>
-                <p>Shuttle service provided between the house and the Element hotel between 5:00pm - 12:00am</p>
               </div>
             </div>
           </div>
@@ -38,11 +37,12 @@ const Travel: React.FunctionComponent = () => {
               <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-2']}`} />
               <div className={styles['travel__details']}>
                 <div className={styles['travel__details--title']}>
-                  <h2>Element Hotel Distance to Venue</h2>
+                  <h2>If staying at the Element Basalt Hotel - distance to Venue</h2>
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-2']}`} />
                 </div>
                 <p>Walking to venue is roughly 13 minutes and driving is 4 minutes</p>
                 <p>Parking allowed around the inner edge of Lewis Lane (green oval on the map)</p>
+                <p>Shuttle service provided between the house and the Element hotel between 5:00pm - 12:00am</p>
               </div>
             </div>
           </div>
@@ -66,6 +66,7 @@ const Travel: React.FunctionComponent = () => {
           </div>
         </div>
         <h1>Accommodations</h1>
+        <h2 className={styles['travel__subtitle']}>Limited Airbnbs and hotel space - book early!</h2>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half flex-half-2">
             <div className={`${styles['travel__image']} ${styles['travel__image-4']}`} role="img" style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
@@ -81,8 +82,6 @@ const Travel: React.FunctionComponent = () => {
                 <p>Address: <a href="https://g.page/elementbasaltaspen?share" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
                 <p>16 miles from the Aspen/Pitkin County Airport</p>
                 <p>13 minutes walking or 4 minutes driving to the Swanson residence</p>
-                <p>We will be having a shuttle from this hotel  transport guests to the wedding venue</p>
-                <p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1594057158691&key=GRP&app=resvlink" rel="noreferrer" target="_blank">Click here</a> to book wedding block discounted rate</p>
               </div>
             </div>
           </div>
@@ -97,7 +96,7 @@ const Travel: React.FunctionComponent = () => {
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-5']}`} />
                 </div>
                 <p>Address: <a href="https://goo.gl/maps/Abo4gPdov4RusnPw8" rel="noreferrer" target="_blank">220 Midland Ave, Basalt, CO 81621</a> (located in downtown Basalt)</p>
-                <p>10 minutes driving to the Swanson residence</p>
+                <p>10 minute drive to the Swanson residence</p>
                 <p>More information and booking: <a href="https://www.basaltmountaininn.com/" rel="noreferrer" target="_blank">Basalt Mountain Inn website</a></p>
               </div>
             </div>
@@ -121,6 +120,7 @@ const Travel: React.FunctionComponent = () => {
                 <p><a href="https://g.page/MarbleDistilling?share" rel="noreferrer" target="_blank">Marble Distilling Co. & The Distillery In</a></p>
                 <p><a href="https://goo.gl/maps/9d1JCv3UdhiVXgpr6" rel="noreferrer" target="_blank">Days Inn by Wyndham Carbondale</a></p>
                 <p><a href="https://goo.gl/maps/VMtS4Fu3rz7mrQ2q8" rel="noreferrer" target="_blank">Comfort Inn & Suites</a></p>
+                <p>15 minute drive to the Swanson residence</p>
               </div>
             </div>
           </div>
