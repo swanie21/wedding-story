@@ -200,7 +200,7 @@ const OurStory: React.FunctionComponent = () => {
                   <Image alt="hiking at Castlewood Canyon state park" src="/hiking.jpg" height="315" width="420" />
                 </div>
                 <p className={styles['timeline__card--date']}>April 19, 2020</p>
-                <p className={styles['timeline__card--description']}>Hiking was a perfect social distancing activity during COVID. They took the opportunity to explore new hiking trials during spring and summer!</p>
+                <p className={styles['timeline__card--description']}>Hiking was a perfect social distancing activity during COVID. They took the opportunity to explore new hiking trails during spring and summer!</p>
               </div>
             </Slide>
           </li>

@@ -7,7 +7,7 @@
   animation: animatedGradient 6s ease infinite;
   align-items: center;
   background: linear-gradient(-40deg, $violet, $blue, $blue-aqua, $aquamarine);
-  background-size: 100% 100%;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
