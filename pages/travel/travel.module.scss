@@ -236,5 +236,21 @@
         height: 400px;;
       }
     }
+
+    &-9 {
+      @include respond_to(desktop) {
+        background-position: bottom right;
+        background-size: 42% 48%;
+        height: 328px;
+      }
+    }
+
+    &-10 {
+      @include respond_to(desktop) {
+        background-position: bottom left;
+        background-size: 42% 48%;
+        height: 400px;;
+      }
+    }
   }
 }
