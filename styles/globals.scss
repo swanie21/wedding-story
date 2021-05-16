@@ -71,6 +71,10 @@ main {
   }
 }
 
+.warning-notice {
+  color: $warning-red;
+}
+
 // Needed for the absolute positioned elements to appear behind mobile nav when open
 #travel-page {
   &.adjust-layering {

@@ -30,19 +30,18 @@ const Travel: React.FunctionComponent = () => {
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half flex-half-2">
-            <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img" style={{ backgroundImage: `url('/map.jpg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img" style={{ backgroundImage: `url('/tent.png')` }} />
           </div>
           <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-2']}`} />
               <div className={styles['travel__details']}>
                 <div className={styles['travel__details--title']}>
-                  <h2>If staying at the Element Basalt Hotel - distance to venue</h2>
+                  <h2>Reception</h2>
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-2']}`} />
                 </div>
-                <p>Walking to venue is roughly 13 minutes and driving is 4 minutes</p>
-                <p>Parking allowed around the inner edge of Lewis Lane (green oval on the map)</p>
-                <p>Shuttle service provided between the house and the Element hotel between 5:00pm - 12:00am</p>
+                <p>Dress attire is business casual - wear appropriate shoes for grass and dancing, and bring a light sweater or coat for the evening</p>
+                <p>Reception will begin winding down around 11:00pm with shuttle service until 12:00am</p>
               </div>
             </div>
           </div>
@@ -53,29 +52,8 @@ const Travel: React.FunctionComponent = () => {
               <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-3']}`} />
               <div className={styles['travel__details']}>
                 <div className={styles['travel__details--title']}>
-                  <h2>Reception</h2>
-                  <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-3']}`} />
-                </div>
-                <p>Dress attire is business casual - wear appropriate shoes for grass and dancing, and bring a light sweater or coat for the evening</p>
-                <p>Reception will begin winding down around 11:00pm with shuttle service until 12:00am</p>
-              </div>
-            </div>
-          </div>
-          <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-3']}`} role="img" style={{ backgroundImage: `url('/tent.png')` }} />
-          </div>
-        </div>
-        <div className={`flex-wrapper ${styles['travel__section']}`}>
-          <div className="flex-half flex-half-2">
-            <div className={`${styles['travel__image']} ${styles['travel__image-2']}`} role="img" style={{ backgroundImage: `url('/map.jpg')` }} />
-          </div>
-          <div className="flex-half flex-half-1">
-            <div className={styles['travel__details--container']}>
-              <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-4']}`} />
-              <div className={styles['travel__details']}>
-                <div className={styles['travel__details--title']}>
                   <h2>Post-wedding Brunch</h2>
-                  <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-4']}`} />
+                  <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-3']}`} />
                 </div>
                 <p>We would love another opportunity to thank our guests and spend time with loved ones</p>
                 <p>Join us at 9:00am back at the Swanson residence</p>
@@ -83,44 +61,71 @@ const Travel: React.FunctionComponent = () => {
               </div>
             </div>
           </div>
+          <div className="flex-half">
+            <div className={`${styles['travel__image']} ${styles['travel__image-3']}`} role="img" style={{ backgroundImage: `url('/map.jpg')` }} />
+          </div>
         </div>
         <h1>Accommodations</h1>
         <h2 className={styles['travel__subtitle']}>Limited Airbnbs and hotel space - book early!</h2>
+        <div className={`flex-wrapper ${styles['travel__section']}`}>
+          <div className="flex-half flex-half-2">
+            <div className={`${styles['travel__image']} ${styles['travel__image-4']}`} role="img" style={{ backgroundImage: `url('/basalt-mountain-inn.jpeg')` }} />
+          </div>
+          <div className="flex-half flex-half-1">
+            <div className={styles['travel__details--container']}>
+              <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-4']}`} />
+              <div className={styles['travel__details']}>
+                <div className={styles['travel__details--title']}>
+                  <h2>Basalt Mountain Inn</h2>
+                  <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-4']}`} />
+                </div>
+                <p>Address: <a href="https://goo.gl/maps/Abo4gPdov4RusnPw8" rel="noreferrer" target="_blank">220 Midland Ave, Basalt, CO 81621</a> (located in downtown Basalt)</p>
+                <p>18 minutes from the Aspen/Pitkin County Airport</p>
+                <p>10 minute drive to the Swanson residence</p>
+                <p>More information and booking: <a href="https://www.basaltmountaininn.com/" rel="noreferrer" target="_blank">Basalt Mountain Inn website</a></p>
+                <p>* At check-in say you're in town for the Swanson/Barton wedding and you will receive a guest bag</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className={`flex-half ${styles['flex-half']}`}>
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-5']}`} />
               <div className={styles['travel__details']}>
                 <div className={styles['travel__details--title']}>
-                  <h2>Element Basalt</h2>
+                  <h2>Aspenalt Lodge</h2>
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-5']}`} />
                 </div>
-                <p>Address: <a href="https://g.page/elementbasaltaspen?share" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
-                <p>24 minutes from the Aspen/Pitkin County Airport</p>
-                <p>13 minutes walking or 4 minutes driving to the Swanson residence</p>
+                <p>Address: <a href="https://g.page/Aspenalt?share" rel="noreferrer" target="_blank">157 Basalt Center Cir, Basalt, CO 81621</a></p>
+                <p>18 minutes from the Aspen/Pitkin County Airport</p>
+                <p>10 minute drive to the Swanson residence</p>
+                <p>More information and booking: <a href="https://aspenalt.com/" rel="noreferrer" target="_blank">Aspenalt Lodge website</a></p>
+                <p>* At check-in say you're in town for the Swanson/Barton wedding and you will receive a guest bag</p>
               </div>
             </div>
           </div>
           <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-5']}`} role="img" style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-5']}`} role="img" style={{ backgroundImage: `url('/aspenalt-lodge.jpg')` }} />
           </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
           <div className="flex-half flex-half-2">
-            <div className={`${styles['travel__image']} ${styles['travel__image-6']}`} role="img" style={{ backgroundImage: `url('/basalt-mountain-inn.jpeg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-6']}`} role="img" style={{ backgroundImage: `url('/element-hotel.jpeg')` }} />
           </div>
           <div className="flex-half flex-half-1">
             <div className={styles['travel__details--container']}>
               <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-6']}`} />
               <div className={styles['travel__details']}>
                 <div className={styles['travel__details--title']}>
-                  <h2>Basalt Mountain Inn</h2>
+                  <h2>Element Basalt</h2>
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-6']}`} />
                 </div>
-                <p>Address: <a href="https://goo.gl/maps/Abo4gPdov4RusnPw8" rel="noreferrer" target="_blank">220 Midland Ave, Basalt, CO 81621</a> (located in downtown Basalt)</p>
-                <p>18 minutes from the Aspen/Pitkin County Airport</p>
-                <p>10 minute drive to the Swanson residence</p>
-                <p>More information and booking: <a href="https://www.basaltmountaininn.com/" rel="noreferrer" target="_blank">Basalt Mountain Inn website</a></p>
+                <p>Address: <a href="https://g.page/elementbasaltaspen?share" rel="noreferrer" target="_blank">499 Market Street Basalt, Colorado 81621</a></p>
+                <p>24 minutes from the Aspen/Pitkin County Airport</p>
+                <p>13 minutes walking or 4 minutes driving to the Swanson residence</p>
+                <p>* At check-in say you're in town for the Swanson/Barton wedding and you will receive a guest bag</p>
+                <p className="warning-notice">FULLY BOOKED - availability still in downtown Basalt and Carbondale Hotels</p>
               </div>
             </div>
           </div>
@@ -131,18 +136,17 @@ const Travel: React.FunctionComponent = () => {
               <span className={`${styles['travel__details--block']} ${styles['travel__details--accent-color-1']}`} />
               <div className={styles['travel__details']}>
                 <div className={styles['travel__details--title']}>
-                  <h2>Aspenalt Lodge</h2>
+                  <h2>If staying at the Element Basalt Hotel - distance to venue</h2>
                   <span className={`${styles['travel__details--title-highlight']} ${styles['travel__details--accent-color-1']}`} />
                 </div>
-                <p>Address: <a href="https://g.page/Aspenalt?share" rel="noreferrer" target="_blank">157 Basalt Center Cir, Basalt, CO 81621</a></p>
-                <p>18 minutes from the Aspen/Pitkin County Airport</p>
-                <p>10 minute drive to the Swanson residence</p>
-                <p>More information and booking: <a href="https://aspenalt.com/" rel="noreferrer" target="_blank">Aspenalt Lodge website</a></p>
+                <p>Walking to venue is roughly 13 minutes and driving is 4 minutes</p>
+                <p>Parking allowed around the inner edge of Lewis Lane (green oval on the map)</p>
+                <p>Shuttle service provided between the house and the Element hotel between 5:00pm - 12:00am</p>
               </div>
             </div>
           </div>
           <div className="flex-half">
-            <div className={`${styles['travel__image']} ${styles['travel__image-7']}`} role="img" style={{ backgroundImage: `url('/aspenalt-lodge.jpg')` }} />
+            <div className={`${styles['travel__image']} ${styles['travel__image-3']}`} role="img" style={{ backgroundImage: `url('/map.jpg')` }} />
           </div>
         </div>
         <div className={`flex-wrapper ${styles['travel__section']}`}>
