@@ -58,7 +58,7 @@ const ThingsToDo: React.FunctionComponent = () => {
             </li>
             <li>
               <div className={styles['activities__image-container']} role="img" style={{ backgroundImage: `url('/john-denver-santuary.jpg')`}} />
-              <p>Take a walk through John Denver Santuary in Aspen</p>
+              <p>Take a walk through John Denver Sanctuary in Aspen</p>
             </li>
             <li>
               <div className={styles['activities__image-container']} role="img" style={{ backgroundImage: `url('/north-star-nature-preserve.jpg')`}} />
