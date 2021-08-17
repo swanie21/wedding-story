@@ -33,8 +33,6 @@ const Home: React.FunctionComponent = () => {
         <h2>Saturday, August 7th 2021</h2>
         <h3>Beginning at 5 o'clock, pre-ceremony beverages and gathering</h3>
         <h3>6 o'clock evening ceremony with reception to follow</h3>
-        <p>* Due to mudslides on I-70 in the Glenwood Canyon the highway has been closed. If driving from Denver the best and fastest alternative route <br />is through Independence Pass.
-        <a href="https://goo.gl/maps/e8yqojpYES4srM2DA" rel="noreferrer" target="_blank">&nbsp;Click here</a> to view route. You can also go through <a href="https://www.codot.gov/travel/assets/alternate-route-i70-glenwood-canyon-closure.png" rel="noreferrer" target="_blank">Steamboat Springs</a>, but this is a longer route.</p>
       </main>
     </>
   );
